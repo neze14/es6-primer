@@ -1,7 +1,7 @@
 {
   "name": "es6-primer",
   "version": "1.0.0",
-  "description": "ISM209",
+  "description": "JavaScript and Version Control Primer in NodeJS Environment",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,10 +11,14 @@
     "url": "git+https://github.com/neze14/es6-primer.git"
   },
   "keywords": [
-    "Javascript"
+    "Git",
+    "JavaScript",
+    "Node",
+    "Book-examples",
+    "ISM209"
   ],
   "author": "Chineze Okadigbo",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/neze14/es6-primer/issues"
   },
