@@ -22,5 +22,6 @@
   "bugs": {
     "url": "https://github.com/neze14/es6-primer/issues"
   },
-  "homepage": "https://github.com/neze14/es6-primer#readme"
+  "homepage": "https://github.com/neze14/es6-primer#readme",
+  "type": "module"
 }
