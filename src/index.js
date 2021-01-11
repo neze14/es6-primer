@@ -3,6 +3,7 @@ import logger, {
     multiplier, multiplier2, genericFunction2, Person,
     CustomMath, User
 } from './tools.js';
+import fetch from 'node-fetch';
 
 logger("Welcome! We are having fun with modularity in JS");
 
@@ -16,7 +17,7 @@ logger(genericFunction());
 logger(multiplier(10));
 
 try {
-    const product = multiplier2(3, 4);
+    const product = multiplier2(3);
     logger(product);
 }catch(error) {
     logger(error.message)
@@ -38,5 +39,5 @@ logger('The new height of ${person1.firstName} is ${person1.height}');
 
 logger((CustomMath.sqrt(1000)));
 
-let User1 = new User("myusername", "mypassword", "Chineze", "Okadigbo", "female", undefined);
-logger("The username of ${user1.firstname} is ${user1.username}.")
+let user1 = new User("myusername", "mypassword", "Chineze", "Okadigbo", "female", undefined);
+logger('The username of ${user1.firstname} is ${user1.username}');
